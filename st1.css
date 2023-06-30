@@ -1,0 +1,71 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: auto;
+  background-image: url('img/Sage\ Green\ Background\ -\ EPS\,\ Illustrator\,\ JPG\,\ PNG\,\ SVG\ _\ Template_net.jpeg');
+  background-repeat: no-repeat;
+  background-size: 1366px 706px;
+  /* filter: drop-shadow(2px 4px 6px black); */
+
+
+}
+
+.container {
+  position: sticky;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 50px;
+  backdrop-filter: blur(20px);
+  border-radius: 30px;
+  filter: drop-shadow(2px 4px 6px black);
+  height: 452;
+  border: 2px solid black;
+}
+
+h1 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.btn{
+  letter-spacing: 7px;
+  height: 31px;
+  width: 143px;
+  background: ghostwhite;
+  border-radius: 8px;
+  background: transparent;
+  backdrop-filter: blur(1px);
+}
+
+.btn:hover{
+  background-color: #fafa27;
+}
